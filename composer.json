@@ -1,0 +1,29 @@
+{
+    "name": "soflomo/local-script",
+    "description": "Small Zend Framework 2 module to embed javascripts for specific installations",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/Soflomo/LocalScript",
+    "authors": [
+        {
+            "name": "Jurian Sluiman",
+            "email": "jurian@soflomo.com",
+            "homepage": "http://soflomo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3.",
+        "zendframework/zendframework": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Soflomo\\LocalScript": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
